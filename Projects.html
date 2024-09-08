@@ -11,8 +11,8 @@
     <style>
         body {
             padding-top: 56px;
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #132232;
         }
 
         .header,
@@ -25,9 +25,9 @@
             background-size: cover;
             color: white;
             text-align: center;
-            animation: fadeIn 2s ease-in-out;
+            /* animation: fadeIn 2s ease-in-out; */
             height: 100vh;
-            display: flex;
+            /* display: flex; */
             align-items: center;
             justify-content: center;
         }
@@ -79,9 +79,9 @@
             color: #333;
         }
 
-        .section.bg-light {
+        /* .section.bg-light {
             background: #091119;
-        }
+        } */
 
 
 
@@ -112,7 +112,7 @@
             /* background-color: transparent; */
             /* Fully transparent */
             overflow-x: hidden;
-            transition: 0.5s;
+             transition: 0.5s; 
             padding-top: 60px;
         }
 
@@ -129,7 +129,7 @@
             color: #5d6baa;
         }
 
-        @keyframes fadeIn {
+        /* @keyframes fadeIn {
             from {
                 opacity: 0;
             }
@@ -161,9 +161,9 @@
             to {
                 transform: rotate(360deg);
             }
-        }
+        } */
 
-        .animate-on-scroll {
+        /* .animate-on-scroll {
             opacity: 0;
             transform: translateY(50px);
             transition: opacity 0.5s, transform 0.5s;
@@ -172,78 +172,19 @@
         .animate-on-scroll.show {
             opacity: 1;
             transform: translateY(0);
-        }
+        } */
 
         body,
         html {
             margin: 0;
             padding: 0;
+           
         }
     </style>
 </head>
 
 <body>
-    <!-- Navbar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Khushi's Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">Education</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Khushi's Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="aboutMe.html">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Education.html">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Skills.html">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> -->
-
+  
     <!-- Header -->
     <header class="header">
         <div class="container">
@@ -267,111 +208,7 @@
         <a href="Contact.html">Contact Me</a>
     </div>
 
-    <!-- About Me Section -->
-    <!-- <section id="about" class="section animate-on-scroll">
-        <div class="container">
-            <h2 class="text-center">About Me</h2>
-            <p>Hello! I am a passionate software engineering student with experience in various technologies. I love
-                solving complex problems and building innovative solutions.</p>
-        </div>
-    </section> -->
 
-    <!-- Skills Section -->
-    <!-- <section id="skills" class="section bg-light animate-on-scroll">
-        <div class="container">
-            <h2 class="text-center">Skills</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Java, Python, and JavaScript</li>
-                <li class="list-group-item">Machine Learning and Data Science</li>
-                <li class="list-group-item">HTML, CSS, and Bootstrap for frontend development</li>
-                <li class="list-group-item">Flask, Django, and Spring for backend</li>
-                <li class="list-group-item">SQL, MongoDB for databases</li>
-            </ul>
-        </div>
-    </section> -->
-
-    <!-- Experience Section -->
-    <!-- <section id="experience" class="section animate-on-scroll">
-        <div class="container">
-            <h2 class="text-center">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <h5>Software Developer Intern</h5>
-                    <p>Company ABC - Jan 2024 to May 2024</p>
-                    <p>Worked on web development projects using Flask and integrated backend APIs.</p>
-                </div>
-                <div class="timeline-item">
-                    <h5>Open Source Contributor</h5>
-                    <p>Various Projects - 2023</p>
-                    <p>Contributed to multiple open-source projects focused on data science and web development.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Education Section -->
-    <!-- <section id="education" class="section bg-light animate-on-scroll">
-        <div class="container">
-            <h2 class="text-center">Education</h2>
-            <ul class="list-group">
-                <li class="list-group-item">B.Tech in Computer Science, University XYZ (2021 - Present)</li>
-                <li class="list-group-item">12th Grade, ABC School (2019 - 2021)</li>
-            </ul>
-        </div>
-    </section> -->
-
-    <!-- Projects Section -->
-    <!-- <section id="projects" class="section animate-on-scroll">
-        <div class="container">
-            <h2 class="text-center">Projects</h2>
-            <div class="row"> -->
-    <!-- Project 1 -->
-    <!-- <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="/api/placeholder/350/200" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">A brief description of Project 1.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div> -->
-    <!-- Project 2 -->
-    <!-- <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="/api/placeholder/350/200" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">A brief description of Project 2.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Contact Section -->
-    <!-- <section id="contact" class="section bg-light animate-on-scroll">
-        <div class="container">
-            <h2 class="text-center">Contact</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </section> -->
 
     <!-- Footer -->
     <footer class="footer">
